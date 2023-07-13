@@ -7,7 +7,7 @@ public class BaseTest {
 
     public ChromeDriver openBrowser()
     {
-        ChromeDriver driver1 = new ChromeDriver();
+        ChromeDriver driver = new ChromeDriver();
         driver.navigate().to("https://gigatron.rs/");
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
